@@ -1,0 +1,40 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+    font-family: 'Amatic', sans-serif;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+th {
+    height: 30px;
+    text-align: center;
+}
+
+td {
+    height: 100px;
+}
+
+th:nth-of-type(1), td:nth-of-type(1) {
+    color: #D32735;
+}
+
+th:nth-of-type(7), td:nth-of-type(7) {
+    color: #2A98A7;
+}
+
+.today {
+    color: #284D5D;
+    background-color: #3B7297;
+}
+
+.holiday {
+    color: #780B24;
+    background-color: #D24E66;
+    font-family: bold;
+    font-size: 1.3em;
+}
